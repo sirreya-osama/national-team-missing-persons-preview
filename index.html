@@ -1,0 +1,41 @@
+<!doctype html>
+<html lang="ar" dir="rtl">
+<head>
+<meta charset="utf-8">
+<meta name="robots" content="noindex, nofollow">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>المفقودون في غزة | Missing Persons in Gaza</title>
+<link rel="icon" href="assets/img/coat-of-arms.png">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Almarai:wght@400;700;800&display=swap">
+<link rel="stylesheet" href="assets/css/missing-persons.css">
+<style>
+  body { margin: 0; }
+  .mp-pick { min-height: 100vh; display: grid; place-items: center; padding: 40px 0; }
+  .mp-pick .mp-hero { position: fixed; inset: 0; padding: 0; z-index: 0; }
+  .mp-pick-card { position: relative; z-index: 1; background: #fff; border-radius: 24px; padding: 36px; width: min(760px, calc(100% - 32px)); box-shadow: 0 30px 80px rgba(0,0,0,.35); text-align: center; }
+  .mp-pick-card img { width: 120px; }
+  .mp-pick-card h1 { font-size: 26px; margin: 14px 0 4px; }
+  .mp-pick-card p { color: #6B7280; }
+  .mp-pick-grid { display: grid; grid-template-columns: repeat(3, 1fr); gap: 12px; margin-top: 26px; }
+  .mp-pick-grid div { border: 1px solid #E9E9E9; border-radius: 16px; padding: 16px; display: grid; gap: 8px; }
+  .mp-pick-grid strong { color: #483949; }
+  .mp-pick-grid .mp-btn { padding: 10px 16px; font-size: 14px; }
+  @media (max-width: 560px) { .mp-pick-grid { grid-template-columns: 1fr; } .mp-pick-card { padding: 24px 18px; } }
+</style>
+</head>
+<body>
+<div class="mp mp-pick" lang="ar" dir="rtl">
+  <div class="mp-hero"><span class="mp-hero-glow g1"></span><span class="mp-hero-glow g2"></span></div>
+  <main class="mp-pick-card">
+    <img src="assets/img/national-team-logo.png" alt="الفريق الوطني لمتابعة ملف المفقودين والمختفين قسراً">
+    <h1>المفقودون في غزة · Missing Persons in Gaza</h1>
+    <p>الفريق الوطني لمتابعة ملف المفقودين والمختفين قسراً · وزارة العدل، دولة فلسطين</p>
+    <div class="mp-pick-grid">
+      <div lang="ar"><strong>العربية</strong><a class="mp-btn" href="national-team-missing-persons/">صحيفة الوقائع</a><a class="mp-btn mp-btn-outline" href="national-team-missing-persons-statistics/">الإحصاءات</a></div>
+      <div lang="en" dir="ltr"><strong>English</strong><a class="mp-btn" href="en/national-team-missing-persons/">Fact sheet</a><a class="mp-btn mp-btn-outline" href="en/national-team-missing-persons-statistics/">Statistics</a></div>
+      <div lang="es" dir="ltr"><strong>Español</strong><a class="mp-btn" href="es/national-team-missing-persons/">Hoja informativa</a><a class="mp-btn mp-btn-outline" href="es/national-team-missing-persons-statistics/">Estadísticas</a></div>
+    </div>
+  </main>
+</div>
+</body>
+</html>
