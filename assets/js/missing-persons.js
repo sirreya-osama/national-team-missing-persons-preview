@@ -134,14 +134,6 @@
       cleanups.push(function () { spy.disconnect(); });
     }
 
-    /* ---- Print ---- */
-    Array.prototype.forEach.call(root.querySelectorAll('[data-print]'), function (b) {
-      listen(b, 'click', function () {
-        Array.prototype.forEach.call(root.querySelectorAll('[data-reveal]'), function (el) { el.classList.add('is-in'); });
-        window.print();
-      });
-    });
-
     active = { root: root, cleanups: cleanups };
   }
 
